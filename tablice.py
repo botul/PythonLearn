@@ -1,6 +1,6 @@
 
 #LISTY = []
-
+#listy są zmienne, można dodawać do nich elementy
 #lista produktów
 produkty = ["mleko", "ser", "chleb"]
 print(produkty)
@@ -22,8 +22,8 @@ produkty.pop(1)
 produkty.remove("mleko")
 #metoda remove usuwa produkt o podanej nazwie
 
-#TUPLE - ()
-#tupli nie można edytować
+#TUPLE - krotka - ()
+#tupli/krotki nie można edytować
 #metody są ograniczone
 prod2 = ("Stale","mleko", "ser", "chleb")
 print(prod2)
@@ -38,3 +38,10 @@ keys = person.keys()
 print(keys)
 
 
+#----------------------------------------
+
+l=[1,2,element,4.2,55]
+
+macierz = [a,b,c[1,2,3,4]]
+
+print(macierz[2][2])
